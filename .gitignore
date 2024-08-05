@@ -1,0 +1,133 @@
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.env
+venv/
+env/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.classpath
+*.project
+*.settings/
+
+# Flutter/Dart
+.build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Flutter.podspec.json
+ios/Flutter/Flutter.xcframework
+ios/Flutter/flutter_assets
+ios/Flutter/flutter_export_environment.sh
+
+# Android
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+*.keystore
+*.gradle
+.gradle/
+build/
+local.properties
+*.iml
+*.idea/
+
+# JavaScript
+*.log
+dist/
+build/
+coverage/
+*.env
+
+# Caches and temporary files
+*.log
+*.tmp
+*.temp
+*.cache
+*.bak
+*.swp
+
+# Documentation
+*.pdf
+*.docx
+*.xlsx
+
+# Sensitive files
+*.pem
+*.key
+*.crt
+*.p12
+
+# Custom
+*.env
+*.secret
+
+# For all nested folders
+**/node_modules/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/*.class
+**/*.jar
+**/*.war
+**/*.ear
+**/*.log
+**/build/
+**/dist/
+**/.gradle/
+**/Pods/
+**/.symlinks/
+**/.flutter-plugins/
+**/.dart_tool/
+**/venv/
+**/env/
+**/coverage/
+**/Flutter.framework/
+**/Flutter.podspec/
+**/Flutter.xcframework/
+**/flutter_assets/
+**/flutter_export_environment.sh
